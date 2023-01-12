@@ -9,7 +9,7 @@ const Business = () => {
         A single API for multiple use cases across industries.
       </p>
       <div className="flex gap-[24px] flex-wrap  items-center sm:justify-start justify-center mt-[60px]">
-        <div className="flex flex-col bg-white p-[40px] rounded-[8px] text-dimmerBlack font-medium w-[380px]">
+        <div className="flex flex-col bg-white p-[40px] rounded-[8px] text-dimmerBlack font-medium w-[350px]">
           <img src={businessIcon1} alt="" className='w-[50px] h-[50px]' />
           <h5 className='mt-[80px]'>LENDING</h5>
           <h4 className="text-black my-[24px]">
@@ -19,7 +19,7 @@ const Business = () => {
             Match customers with sustainable loans in real-time, and lower your default rates.
           </p>
         </div>
-        <div className="flex flex-col bg-white p-[40px] rounded-[8px] text-dimmerBlack font-medium w-[380px]">
+        <div className="flex flex-col bg-white p-[40px] rounded-[8px] text-dimmerBlack font-medium w-[350px]">
           <img src={businessIcon2} alt="" className='w-[50px] h-[50px]' />
           <h5 className='mt-[80px]'>LENDING</h5>
           <h4 className="text-black my-[24px]">
@@ -29,7 +29,7 @@ const Business = () => {
             Match customers with sustainable loans in real-time, and lower your default rates.
           </p>
         </div>
-        <div className="flex flex-col bg-white p-[40px] rounded-[8px] text-dimmerBlack font-medium w-[380px]">
+        <div className="flex flex-col bg-white p-[40px] rounded-[8px] text-dimmerBlack font-medium w-[350px]">
           <img src={businessIcon3} alt="" className='w-[50px] h-[50px]' />
           <h5 className='mt-[80px]'>LENDING</h5>
           <h4 className="text-black my-[24px]">
@@ -39,7 +39,7 @@ const Business = () => {
             Match customers with sustainable loans in real-time, and lower your default rates.
           </p>
         </div>
-        <div className="flex flex-col bg-white p-[40px] rounded-[8px] text-dimmerBlack font-medium w-[380px]">
+        <div className="flex flex-col bg-white p-[40px] rounded-[8px] text-dimmerBlack font-medium w-[350px]">
           <img src={businessIcon4} alt="" className='w-[50px] h-[50px]' />
           <h5 className='mt-[80px]'>LENDING</h5>
           <h4 className="text-black my-[24px]">
@@ -49,7 +49,7 @@ const Business = () => {
             Match customers with sustainable loans in real-time, and lower your default rates.
           </p>
         </div>
-        <div className="flex flex-col bg-white p-[40px] rounded-[8px] text-dimmerBlack font-medium w-[380px]">
+        <div className="flex flex-col bg-white p-[40px] rounded-[8px] text-dimmerBlack font-medium w-[350px]">
           <img src={businessIcon5} alt="" className='w-[50px] h-[50px]' />
           <h5 className='mt-[80px]'>LENDING</h5>
           <h4 className="text-black my-[24px]">
