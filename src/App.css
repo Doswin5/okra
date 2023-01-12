@@ -1,0 +1,47 @@
+h1 {
+  font-size: 80px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 64px;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+a, button {
+  font-size: 16px;
+
+}
+
+p {
+  font-size: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+.btn1 {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn2 {
+  background-color: transparent;
+  color: var(--dimBlack);
+  border: 1px solid var(--dimmerBlack);
+}
