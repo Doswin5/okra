@@ -6,7 +6,7 @@ const Explore = () => {
   return (
     <div className='px-[16px] sm:px-[80px] flex sm:flex-row flex-col mb-[200px] gap-[40px]'>
       <div className="flex flex-col items-center sm:items-start">
-        <h3 className='text-dimBlack font-bold sm:text-start text-center'>
+        <h3 className='text-dimBlack font-bold sm:text-start text-center sm:text-[48px] text-[32px]'>
           Explore core products
         </h3>
         <div className="flex sm:justify-start justify-center items-center gap-4 text-primary mt-[24px] mb-[40px]">
@@ -45,7 +45,7 @@ const Explore = () => {
         <p className="font-bold text-dimmerBlack">
           IDENTITY
         </p>
-        <h3 className='text-dimBlack'>
+        <h3 className='text-dimBlack sm:text-[48px] text-[32px]'>
           Speed up your onboarding
         </h3>
         <p className="font-normal text-dimmerBlack mb-[40px]">
@@ -57,7 +57,7 @@ const Explore = () => {
           </button>
         </div>
         <div className="flex sm:flex-row flex-col gap-8 sm:gap-0 items-center justify-between">
-          <p className="font-normal text-dimmerBlack">
+          <p className="font-normal text-dimmerBlack sm:text-start text-center">
             Companies building with Identity
           </p>
           <div className="flex items-center justify-end gap-[0px] sm:gap-[40px]">

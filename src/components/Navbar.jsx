@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center py-[16px] sm:py-[24px] px-[16px] sm:px-[80px] fixed left-0 right-0 bg-white'>
       <Link to='/'>
-        <img src={okraLogo} alt="okra logo" className='sm:h-[40px] h-[24px]' />
+        <img src={okraLogo} alt="okra logo" className='w-[112px]' />
       </Link>
       <div className="sm:flex hidden justify-end gap-[60px]">
         <div className="flex items-center gap-[40px]">

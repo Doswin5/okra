@@ -5,7 +5,7 @@ const Coverage = () => {
   return (
     <div className='bg-[white] px-[16px] sm:px-[80px] py-[80px] sm:py-[160px] flex sm:flex-row flex-col justify-between text-dimmerBlack items-center gap-[100px]'>
       <div>
-        <h3 className='text-black'>
+        <h3 className='text-black sm:text-[48px] text-[32px]'>
           The largest API coverage across financial institutions in Africa
         </h3>
         <h4 className='mt-[16px] mb-[40px] 

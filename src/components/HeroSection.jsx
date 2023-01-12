@@ -5,10 +5,10 @@ const HeroSection = () => {
   return (
     <div className='flex sm:flex-row flex-col-reverse items-center px-[16px] gap-[40px] sm:px-[80px] py-[24px] sm:py-[40px]'>
       <div className="flex flex-col">
-        <h2 className="font-bold text-dimBlack">
+        <h2 className="font-bold text-dimBlack sm:text-[64px] text-[40px]">
           The fastest way to access financial data
         </h2>
-        <h5 className="font-normal text-dimmerBlack w-[85%] mt-[16px] mb-[40px]">
+        <h5 className="font-normal text-dimmerBlack sm:w-[85%] w-full mt-[16px] mb-[40px]">
           Access financial information from banks and more-with one Api-to build financial products. 
         </h5>
         <div className="flex gap-[24px]">

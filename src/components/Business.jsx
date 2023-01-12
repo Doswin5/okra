@@ -4,7 +4,7 @@ import { businessIcon1, businessIcon2, businessIcon3, businessIcon4, businessIco
 const Business = () => {
   return (
     <div className='bg-[#F4F6F8] px-[16px] py-[80px] sm:p-[80px]'>
-      <h3>How Okra powers businesses</h3>
+      <h3 className='sm:text-[48px] text-[32px]'>How Okra powers businesses</h3>
       <p className="font-normal mt-[24px]">
         A single API for multiple use cases across industries.
       </p>
