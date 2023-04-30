@@ -25,6 +25,10 @@ import buildImage from './buildImage.png'
 import getStartedImage from './getStartedImage.png'
 import menu from './menu.png'
 import close from './close.png'
+import paystack from './paystack.png'
+import firstBank from './firstBank.png'
+import absa from './absa.png'
+import zenith from './zenith.png'
 
 export {
   okraLogo,
@@ -54,5 +58,9 @@ export {
   getStartedImage,
   menu, 
   close,
+  paystack,
+  firstBank,
+  absa,
+  zenith,
 
 }

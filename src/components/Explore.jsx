@@ -52,7 +52,7 @@ const Explore = () => {
           Reliably sign up your prospects with their kyc profile from any financial institution in seconds
         </p>
         <div className='border-b-2 border-[#DFE2E6] pb-[30px] mb-[30px]'>
-          <button className="btn1">
+          <button className="btn1 hover:bg-green-900">
             Learn More
           </button>
         </div>
