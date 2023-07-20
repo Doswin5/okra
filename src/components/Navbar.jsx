@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center py-[16px] sm:py-[24px] px-[16px] sm:px-[80px] fixed left-0 right-0 bg-white z-50'>
       <Link to='/'>
-        <img src={okraLogo} alt="okra logo" className='w-[112px]' />
+        <img src={okraLogo} alt="okra logo" className='sm:w-[112px] w-[80px]' />
       </Link>
       <div className="sm:flex hidden justify-end gap-[60px]">
         <div className="flex items-center gap-[40px] ">
@@ -68,14 +68,20 @@ const Navbar = () => {
         <img
           src={toggle ? close : menu}
           alt="menu"
-          className='w-[24px] h-[24px] cursor-pointer object-cover'
+          className='w-8 h-8 cursor-pointer object-cover'
           onClick={() => setToggle(prev => !prev)}
         />
         <div
-          className={`${toggle ? 'flex' : 'hidden'} justify-center pt-6 px-6 bg-black text-white absolute top-20 right-0 mx-4 my-2 min-w-[60px] rounded-xl sidebar`}
+          className={`${toggle ? 'flex' : 'hidden'} flex-col justify-start pt-6 px-4 bg-white text-black absolute top-16 left-0 right-0 bottom-0 h-[100vh] -mb-6`}
         >
+          <div className="flex sm:flex-row flex-col items-start gap-6 mb-6">
+            <button className="btn1 w-full">
+              Sign Up
+            </button>
+            <Link>Login</Link>
+          </div>
           <ul
-            className="list-none items-center flex flex-col gap-[24px] pb-[24px]"
+            className="list-none items-start flex flex-col gap-6 pb-[24px]"
           >
             {
               navLinks.map((navLink, id) => (
@@ -84,12 +90,6 @@ const Navbar = () => {
                 </Link>
               ))
             }
-            <div className="flex sm:flex-row flex-col items-center gap-[24px] sm:gap-[40px]">
-              <Link>Login</Link>
-              <button className="btn1">
-                Sign Up
-              </button>
-            </div>
           </ul>
         </div>
       </div>

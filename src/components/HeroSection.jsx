@@ -34,7 +34,7 @@ const HeroSection = () => {
   }
 
   return (
-    <div className='flex sm:flex-row flex-col-reverse items-center px-[16px] gap-[40px] sm:px-[80px] py-[24px] sm:py-[40px]'>
+    <div className='flex sm:flex-row flex-col-reverse items-center px-[16px] sm:gap-[40px] gap-6 sm:px-[80px] py-6 sm:py-[40px]'>
       <div className="flex flex-col">
         <motion.div
           variants={boxVariant}
@@ -48,7 +48,7 @@ const HeroSection = () => {
             The fastest way to access financial data
           </motion.h2>
           <motion.h5 
-            className="font-normal text-dimmerBlack sm:w-[85%] w-full mt-[16px] mb-[40px]"
+            className="font-normal text-dimmerBlack sm:w-[85%] w-full sm:mt-[16px] mt-2 mb-6 sm:mb-[40px]"
             variants={listVariant}
           >
             Access financial information from banks and more-with one Api-to build financial products. 

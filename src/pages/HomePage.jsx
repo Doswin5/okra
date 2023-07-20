@@ -3,7 +3,7 @@ import { HeroSection, Trustees, Explore, Business, Finance, Coverage, Build, Get
 
 const HomePage = () => {
   return (
-    <div className='sm:pt-[100px] pt-[60px]'>
+    <div className='sm:pt-[100px] pt-[40px]'>
       <HeroSection />
       <Trustees />
       <Explore />
